@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './header.jsx';
 import Mainsec1 from './mainsec1.jsx';
 import Ourservices from './ourservices.jsx';
-import Whychooseus  from './whychooseus.jsx';
+import Whychooseus from './whychooseus.jsx';
 import Cards from './Cards.jsx';
 import Aboutus from './aboutus.jsx';
 
