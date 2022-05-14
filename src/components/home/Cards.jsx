@@ -76,7 +76,7 @@ return(
                   <div className="carousel-item">
 
                     <div className="d-flex justify-content-around py-4">
-                        <div classv="col-3">
+                        <div className="col-3">
                             <div className="card" style={{borderRadius:" 20px", height:" 70vh"}}>
                                 <div className="card-img" style={{width: "75%", margin:"0 auto"}}>
                                     <img src="https://oeson.b-cdn.net/New%20folder/Rectangle%2092.png" alt="mobile development" style ={{ width:"100%"}}/>
