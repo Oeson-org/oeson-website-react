@@ -4,6 +4,7 @@ import Footer from './components/layout/footer';
 import Header from './components/layout/header';
 import About from './components/pages/About/About';
 import Career from './components/pages/Career/Career';
+import Contact from './components/pages/Contact/Contact';
 import Home from './components/pages/home/home';
 import Services from './components/pages/Service/Services';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/services' element={<Services />}></Route>
           <Route path='/career' element={<Career />}></Route>
           <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
 
         </Routes>
         <Footer />
