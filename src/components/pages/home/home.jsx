@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Header from './../../layout/header';
 import Mainsec1 from './mainsec1.jsx';
 import Ourservices from './ourservices.jsx';
 import Whychooseus from './whychooseus.jsx';
@@ -11,7 +10,7 @@ import Aboutus from './aboutus.jsx';
 function Home() {
   return (
     <div>
-      < Header />
+      {/* < Header /> */}
       < Mainsec1 />
       {/* < Mainsec2 />
       < Mainsec3 /> */}

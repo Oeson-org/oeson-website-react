@@ -8,7 +8,7 @@ function Header() {
         <div>
             <header>
                 <nav className="navbar navbar-expand-lg">
-                    <NavLink className="navbar-brand" href="./index.html">
+                    <NavLink className="navbar-brand" to="/">
                         <div className="logo-img"></div>
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -17,7 +17,7 @@ function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
-                            <li className="nav-item active" >
+                            <li className="nav-item" >
 
                                 <NavLink className="nav-link" to="/">Home <span class="sr-only">(current)</span></NavLink>
                             </li>
