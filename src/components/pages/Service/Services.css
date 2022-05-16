@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    z-index: 1;
+    color: white;
+    background: #2C70C0;
+}
+
+.service-main {
+    height: 100vh;
+    background-image: url('https://oeson.b-cdn.net/New%20folder/Group%20213%20(1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+
+
+.gallery-cell {
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+
+ol.flickity-page-dots li.dot {
+    background: lightgray;
+}
+
+.gallery-cell .card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.start {
+    min-height: 50vh;
+    width: 100%;
+    background: url('https://oeson.b-cdn.net/New%20folder/Rectangle%20194.png');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.start h3 {
+    font-size: 20px;
+}
+
+.start button {
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 6px;
+    background-color: blue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.updates ul li {
+    padding: 13px;
+}
+
+@media (max-width: 575.98px) {
+    .service-main {
+        background: #2C70C0;
+    }
+
+    #services .d-flex .px-0 .px-0 {
+        text-align: center;
+    }
+
+    #services .d-flex:nth-child(2n+1) {
+        flex-direction: column-reverse;
+    }
+
+    #services .d-flex {
+        gap: 20px;
+        box-shadow: 2px 2px 10px gray;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    .gallery-cell {
+        width: 100%;
+        margin-right: 5vw;
+    }
+
+    .gallery-cell .card .img-hold {
+        width: 20%;
+    }
+
+    .gallery-cell .card .card-body {
+        width: 80%;
+    }
+
+    .flickity-prev-next-button {
+        background: transparent !important;
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gallery-cell {
+        width: 80%;
+        margin-right: 5vw;
+    }
+
+    .gallery-cell .card .img-hold {
+        width: 20%;
+    }
+
+    .gallery-cell .card .card-body {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .gallery-cell {
+        width: 55%;
+        margin-right: 5vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .gallery-cell {
+        width: 35%;
+        margin-right: 10vw;
+    }
+
+    .gallery-cell .card .img-hold {
+        width: 20%;
+    }
+
+    .gallery-cell .card .img-hold .mx-auto {
+        max-width: 100px;
+        overflow: hidden;
+    }
+
+    .gallery-cell .card .card-body {
+        width: 80%;
+    }
+
+    #services .d-flex:nth-child(2n) .px-0 .px-0 {
+        text-align: right;
+    }
+
+    .service-img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
