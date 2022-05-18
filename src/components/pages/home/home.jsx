@@ -12,8 +12,8 @@ function Home() {
     <div>
       {/* < Header /> */}
       < Mainsec1 />
-      {/* < Mainsec2 />
-      < Mainsec3 /> */}
+       < Ourservices /> 
+       < Whychooseus/>
       < Cards />
       < Aboutus />
 
