@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,300i,400,400i,600,600i,700,700i,800,800i,900");
+body {
+    font-family: "Nunito Sans";
+    background: #efefef;
+    }
+
+    p {
+        font-weight: 200;
+    font-size: 1.2em;
+    line-height: 1.5;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    header {
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #fcfcfc;
+        width: 100%;
+    }
+    header h1 {
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .main-navigation {
+        padding: 1em 0 0 0;
+    }
+    .main-navigation .nav-list {
+        display: none;
+    }
+    .main-navigation .nav-icon {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 0.7em 0.8em;
+        margin: 0 1em;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        display: block;
+    }
+    .main-navigation ul {
+        margin: 0 0.1em;
+        padding: 0;
+    }
+    .main-navigation li {
+        font-size: 1.3em;
+        list-style-type: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0.3em 0.2em;
+        border-radius: 5px;
+    }
+    .main-navigation li:hover {
+        background: #efefef;
+    }
+    .main-navigation img {
+        position: relative;
+    }
+    .main-navigation a {
+        text-decoration: none;
+        color: #fcfcfc;
+    }
+
+
+.content p {
+    max-width: 800px;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+.content .image-right {
+    float: right;
+    width: 35%;
+    padding: 1.0em 1.0em 1.0em 1.0em;
+}
+.content .image-left {
+    float: left;
+    width: 35%;
+    padding: 0.7em 1.0em 0.7em 0.7em;
+}
+.content .image-center {
+    width: 100%;
+}
+
+.post-meta {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.post-meta .black {
+    color: #222;
+}
+.post-meta ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.post-meta li {
+    display: inline-block;
+    padding: 0.75em;
+    color: #e5823b;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.banner-image {
+    position: relative;
+    margin: 0 0 2em 0;
+}
+.banner-image h2 {
+    color: #fcfcfc;
+    margin: 0;
+    padding: 0 0.5em;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    width: 50%;
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#justify {
+    text-align: justify;
+}
+
+/* section */
+.humbergerwrap {
+          width: 100%;
+          height: 100vh;
+          background-color: #024c87;
+          align-items: center;
+        }
+        .heart {
+            color: #fbb;
+          }
+          .oeson-text{
+            font-family: "Coiny", cursive;
+            font-size: 70px;
+            text-align: center;
+            color: #fff;
+          }
+          .mp1 {
+            margin-bottom: 50px;
+            padding-top: 200px;
+          }
+        
+        
+        
+        .humberger_inner_wrap  {
+          position: relative;
+          display: flex;
+          overflow: hidden;
+          width: 100%;
+          height: 150px;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .humberger_inner_wrap.mb {
+          margin-bottom: 30px;
+        }
+        
+        
+        
+        #thankyou_txt {
+          display: none;
+        }
+        
+        
+        .humberger {
+          position: relative;
+          bottom: -150px;
+          width: 150px;
+          height: 150px;
+          cursor: pointer;
+        }
+        
+        .humberger_contents, .humberger_contents:before, .humberger_contents:after, .upper, .middle, .lower {
+          position: absolute;
+          width: 50px;
+          height: 2px;
+          background-color: #fff;
+        }
+        
+        .humberger_contents, .xxx {
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+        }
+        
+        .humberger_contents:before, .humberger_contents:after {
+          left: 0;
+          content: "";
+        }
+        
+        .humberger_contents:before {
+          top: -20px;
+        }
+        
+        .humberger_contents:after {
+          bottom: -20px;
+        }
+        
+        /* 背景色 */
+        .bg_red {
+            background-color: #f77a71;
+          }
+          
+          .bg_orenge {
+            background-color: #f7ba71;
+          }
+          
+          .bg_yellow {
+            background-color: #f8d354;
+          }
+          
+          .bg_green {
+            background-color: #4bc797;
+          }
+          
+          .bg_blue {
+            background-color: #7abfe6;
+          }
+          
+          .bg_indigo {
+            background-color: #8088d7;
+          }
+          
+          .hidden {
+            overflow: hidden;
+          }
+          
+          .kazaguruma.active {
+            animation: 0.6s kazaguruma infinite linear;
+          }
+          
+          .demodori.active:before {
+            animation: 0.5s demodori ease-in forwards;
+          }
+          
+          .demodori.active {
+            animation: 0.5s 1s demodori ease-in forwards;
+          }
+          
+          .demodori.active:after {
+            animation: 0.5s 0.4s demodori ease-in forwards;
+          }
+          
+          .honmono_img:before {
+            position: absolute;
+            top: -180%;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 56px;
+            height: 59px;
+            margin: auto;
+            content: "";
+            transform: rotate(-720deg);
+          }
+          
+          .honmono.active {
+            animation: 0.5s ease honmono forwards;
+          }
+          
+          .honmono_img.active:before {
+            animation: 0.8s linear honmono_img forwards;
+          }
+          
+          .kakudai.active {
+            animation: 1s 1s kakudai ease forwards;
+          }
+          
+          .kakudai.active:before {
+            animation: 1s ease kakudai1_1 forwards, 1s 1s ease kakudai1_2 forwards, 2s 2s ease kakudai1_3 forwards;
+          }
+          
+          .kakudai.active:after {
+            animation: 1s ease kakudai2_1 forwards, 1s 1s ease kakudai2_2 forwards, 2s 2s ease kakudai2_3 forwards;
+          }
+          
+          .xxx {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 45px;
+          }
+          
+          .xxx.active .upper, .xxx.active .middle, .xxx.active .lower {
+            right: 0;
+            left: 0;
+            margin: auto;
+          }
+          
+          .xxx.active .upper {
+            animation: 1s upper linear forwards, 1s 4s xxx forwards;
+          }
+          
+          .xxx.active .middle {
+            animation: 1s 1s middle linear forwards, 1s 4s xxx forwards;
+          }
+          
+          .xxx.active .lower {
+            animation: 1s 2s lower linear forwards, 1s 4s xxx forwards;
+          }
+          
+          .upper {
+            top: 0;
+          }
+          
+          .middle {
+            top: 20px;
+          }
+          
+          .lower {
+            top: 40px;
+          }
+          
+          /* 回るつづけるアニーメーション*/
+          @keyframes kazaguruma {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          /* ハンバーガーメニュー反り返って消える */
+          @keyframes demodori {
+            0% {
+              left: 0;
+            }
+            50% {
+              left: -80%;
+              transform: skewY(15deg);
+            }
+            70% {
+              transform: skewY(0);
+            }
+            100% {
+              left: 250%;
+              opacity: 0;
+            }
+          }
+          /* イラストのハンバーガー表示 */
+          @keyframes honmono {
+            100% {
+              opacity: 0;
+            }
+          }
+          @keyframes honmono_img {
+            100% {
+              top: 0;
+              transform: rotate(0);
+            }
+          }
+          @keyframes kakudai {
+            0% {
+              background-color: #4bc797;
+            }
+            100% {
+              background-color: #4bc797;
+            }
+          }
+          @keyframes kakudai1_1 {
+            100% {
+              top: 0;
+            }
+          }
+          @keyframes kakudai1_2 {
+            100% {
+              transform: rotate(45deg);
+            }
+          }
+          @keyframes kakudai1_3 {
+            0% {
+              transform: rotate(45deg);
+            }
+            10% {
+              transform: rotate(45deg);
+            }
+            40% {
+              transform: scale(0.3) rotate(45deg);
+            }
+            100% {
+              width: 100%;
+              height: 100%;
+              transform: scale(150) rotate(45deg);
+            }
+          }
+          @keyframes kakudai2_1 {
+            100% {
+              bottom: 0;
+            }
+          }
+          @keyframes kakudai2_2 {
+            100% {
+              transform: rotate(-45deg);
+            }
+          }
+          @keyframes kakudai2_3 {
+            0% {
+              transform: rotate(-45deg);
+            }
+            10% {
+              transform: rotate(-45deg);
+            }
+            40% {
+              transform: scale(0.3) rotate(-45deg);
+            }
+            100% {
+              width: 100%;
+              height: 100%;
+              transform: scale(150) rotate(-45deg);
+            }
+          }
+          @keyframes upper {
+            100% {
+              width: 20px;
+              height: 3px;
+            }
+          }
+          @keyframes middle {
+            100% {
+              width: 35px;
+              height: 3px;
+            }
+          }
+          @keyframes lower {
+            100% {
+              height: 3px;
+            }
+          }
+          @keyframes xxx {
+            100% {
+              background-color: #925219;
+            }
+          } 
